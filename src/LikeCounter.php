@@ -2,7 +2,7 @@
 
 namespace Conner\Likeable;
 
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
 class LikeCounter extends Eloquent
 {

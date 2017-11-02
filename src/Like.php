@@ -2,9 +2,9 @@
 
 namespace Conner\Likeable;
 
-use Illuminate\Database\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class Like extends Eloquent
+class Like extends Model
 {
 	protected $table = 'likeable_likes';
 	public $timestamps = true;
