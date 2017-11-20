@@ -2,9 +2,9 @@
 
 namespace Conner\Likeable;
 
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model;
 
-class LikeCounter extends Eloquent
+class LikeCounter extends Model
 {
 	protected $table = 'likeable_like_counters';
 	public $timestamps = false;

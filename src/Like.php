@@ -2,7 +2,7 @@
 
 namespace Conner\Likeable;
 
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class Like extends Model
 {
